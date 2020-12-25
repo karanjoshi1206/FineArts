@@ -1,0 +1,26 @@
+database={
+    "artist_name":{
+        "images_url":[
+            {
+                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F845832373753071356%2F&psig=AOvVaw3VtDq41393QoG5EMJrkG6J&ust=1608998352708000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj-lZrA6e0CFQAAAAAdAAAAABAD",
+                "likes":0,
+            }
+        ]
+    },
+    "artist_name_2":{
+        "images_url":[
+            {
+                "url":"https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5a%2FAnimated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif%2F440px-Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWallpaper_(computing)&tbnid=TYt4l8cM7hAdAM&vet=12ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ..i&docid=BjaxPbQvKOwqyM&w=440&h=248&q=wallpapers&hl=en&authuser=0&ved=2ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ",
+                "likes":0,
+            }
+        ]
+    },
+}

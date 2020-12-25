@@ -9,8 +9,8 @@
         </div>
         <div class="main">
             {% block content %}
-                {% for contestent in artists%}
-                    <h3>{{ contestent.name }}</h3>
+                {% for artist in artists%}
+                    <h1>{{artist}}</h1>
                 {% endfor %}
             {% endblock %}
         </div>
