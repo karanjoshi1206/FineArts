@@ -3,6 +3,7 @@ database={
         "branch":"CSE-18",
         "instagram":"#",
         "facebook":"#",
+        "profile_url":"#",
         "images_url":[
             {
                 "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
@@ -22,6 +23,19 @@ database={
         "branch":"ECE-18",
         "instagram":"#",
         "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+        "images_url":[
+            {
+                "url":"https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5a%2FAnimated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif%2F440px-Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWallpaper_(computing)&tbnid=TYt4l8cM7hAdAM&vet=12ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ..i&docid=BjaxPbQvKOwqyM&w=440&h=248&q=wallpapers&hl=en&authuser=0&ved=2ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ",
+                "likes":0,
+            }
+        ]
+    },
+    "artist_name_3":{
+        "branch":"ECE-18",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
         "images_url":[
             {
                 "url":"https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5a%2FAnimated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif%2F440px-Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWallpaper_(computing)&tbnid=TYt4l8cM7hAdAM&vet=12ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ..i&docid=BjaxPbQvKOwqyM&w=440&h=248&q=wallpapers&hl=en&authuser=0&ved=2ahUKEwj6haqLwOntAhXO5XMBHYqKB4sQMygDegUIARDYAQ",

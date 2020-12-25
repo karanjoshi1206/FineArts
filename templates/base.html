@@ -10,7 +10,8 @@
         <div class="main">
             {% block content %}
                 {% for artist in artists%}
-                    <h1>{{artist}}</h1>
+                    <img src="{{artists[artist]["profile_url"]}}" />
+                    <p>{{artist}} {{artists[artist]["branch"]}}</p>
                 {% endfor %}
             {% endblock %}
         </div>

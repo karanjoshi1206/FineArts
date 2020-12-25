@@ -12,7 +12,7 @@ def home():
 
 @app.route("/<username>")
 def display(username):
-    return render_template("display.html", user=Database[username])
+    return render_template("display.html", user=Database[username], username=username)
 
 
 
