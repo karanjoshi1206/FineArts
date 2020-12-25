@@ -8,7 +8,7 @@
     {% for images in user["images_url"] %}
     {% set index = loop.index %}
         <div class="art a{{index}}">
-            <a href="#" target="__blank"> <img src="{{images["url"]}}" alt="loading" />
+            <a href="{{images["url"]}}" target="__blank"> <img src="{{images["url"]}}" alt="loading" />
             </a>
             <div class="overlay">
             </div>

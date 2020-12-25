@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from pic_db import database as Database
-# from user import Artists as Artists
 
 app = Flask(__name__)
 
