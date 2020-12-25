@@ -1,5 +1,6 @@
 <!DocType Html>
     <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
         <title>Fine Arts Bias</title>
     </head>
 
@@ -7,16 +8,16 @@
         <div class="nav_bar">
             <h1>Nav bar</h1>
         </div>
+        {% block content %}
         <div class="main">
-            {% block content %}
                 {% for artist in artists%}
                     <img src="{{artists[artist]["profile_url"]}}" />
                     <p>{{artist}} {{artists[artist]["branch"]}}</p>
                 {% endfor %}
-            {% endblock %}
         </div>
         <footer>
             <h1>foot</h1>
         </footer>
+        {% endblock %}
     </body>
 </Html>

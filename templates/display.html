@@ -1,85 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
 <div>
-    <h1 align="center">{{username}}</h1>
+    
+    <h1 class="heading">{{username}}</h1>
     <p align="center">{{user["instagram"]}} {{user["branch"]}} {{user["facebook"]}}</p>
+
     {% for images in user["images_url"] %}
-    <img src="{{images[" url"]}}" alt="error loading" />
-    <p>Likes:{{images["likes"]}}</p>
-    {% endfor %}
-    <h1 class="heading">Artist name</h1>
-    <div class="main">
-        <div class="art a1">
-            <a href="/images/memb.jpg" target="__blank"> <img src="/images/memb.jpg" alt="">
+    {% set index = loop.index %}
+        <div class="art a{{index}}">
+            <a href="#" target="__blank"> <img src="{{images["url"]}}" alt="loading" />
             </a>
             <div class="overlay">
             </div>
         </div>
-        <div class="art a2">
-            <a href="/images/memb2.jpg" target="__blank"> <img src="/images/memb2.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-        </div>
-        <div class="art a3">
-            <a href="/images/memb3.jpg" target="__blank"> <img src="/images/memb3.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a4">
-            <a href="/images/memb4.jpg" target="__blank"> <img src="/images/memb4.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-        </div>
-        <div class="art a5">
-            <a href="/images/memb.jpg" target="__blank"> <img src="/images/memb.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a6">
-            <a href="/images/memb2.jpg" target="__blank"> <img src="/images/memb2.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a7">
-            <a href="/images/memb3.jpg" target="__blank"> <img src="/images/memb3.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a8">
-            <a href="/images/memb4.jpg" target="__blank"> <img src="/images/memb4.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a9">
-            <a href="/images/memb.jpg" target="__blank"> <img src="/images/memb.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a10">
-            <a href="/images/memb2.jpg" target="__blank"> <img src="/images/memb2.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a11">
-            <a href="/images/memb3.jpg" target="__blank"> <img src="/images/memb3.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-
-        </div>
-        <div class="art a12">
-
-            <a href="/images/memb4.jpg" target="__blank"> <img src="/images/memb4.jpg" alt=""></a>
-            <div class="overlay">
-            </div>
-        </div>
-    </div>
+        <p>Likes:{{images["likes"]}}</p>
+    {% endfor %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
