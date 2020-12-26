@@ -39,28 +39,52 @@ database={
         "branch":"ECE-18",
         "instagram":"#",
         "facebook":"#",
-        "profile_url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963764/Profile/IMG-20201226-WA0033_gzxcmw.jpg",
         "images_url":[
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963691/Anuva/IMG-20201226-WA0025_aqvsrx.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0031_fjzwg6.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0022_rzwsud.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0030_voo6bw.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0029_rkef43.jpg",
                 "likes":0,
-            }
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0028_lm01k1.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0024_xswubm.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963690/Anuva/IMG-20201226-WA0032_cdirkh.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963689/Anuva/IMG-20201226-WA0027_eklteb.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963689/Anuva/IMG-20201226-WA0026_wumaql.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963499/Anuva/IMG-20201226-WA0023_gzncmc.jpg",
+                "likes":0,
+            },
         ]
     },
     "Tanmaya Singh":{
