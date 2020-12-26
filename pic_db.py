@@ -91,7 +91,7 @@ database={
         "branch":"ECE-19",
         "instagram":"#",
         "facebook":"#",
-        "profile_url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608975944/Profile/PicsArt_01-12-05.38.15_rfb9ro.jpg",
         "images_url":[
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966914/Artwork/Tanmaya%20Singh/LRM_EXPORT_1071606811454442_20191107_144506745_amu64o.jpg",
