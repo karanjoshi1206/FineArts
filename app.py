@@ -9,6 +9,10 @@ app = Flask(__name__)
 def home():
     return render_template("base.html",artists=Database)
 
+@app.route("/team/")
+def team():
+    return render_template("team.html")
+
 @app.route("/<username>")
 def display(username):
     return render_template("display.html", user=Database[username], username=username)

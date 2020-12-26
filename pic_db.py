@@ -122,10 +122,6 @@ database={
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966888/Artwork/Tanmaya%20Singh/LRM_EXPORT_1108443575478931_20191108_133704670_czs7yc.jpg",
-                "likes":0,
-            },
-            {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966881/Artwork/Tanmaya%20Singh/IMG_20200116_190227_bctlgy.jpg",
                 "likes":0,
             },
