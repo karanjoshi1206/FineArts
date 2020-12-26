@@ -34,6 +34,15 @@ body{
     "a8 a9 a10"
     "a11 a9  a12";
 }
+.splash::before {
+  content: "";
+  position: absolute;
+  background: url("/splash.png");
+  height: 100%;
+  width: 90%;
+  background-size: cover;
+  background-position: center;
+}
 .art {
   min-height: 360px;
   position: relative;
