@@ -199,4 +199,16 @@ database={
             },
         ]
     },
+    "Harshit Pathak":{
+        "branch":"CSE-18",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608978378/Profile/WhatsApp_Image_2020-12-24_at_10.31.10_xhuhzf.jpg",
+        "images_url":[
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951208/Artwork/20201224_165353_urejwc.jpg",
+                "likes":0,
+            },
+        ]
+    },
 }
