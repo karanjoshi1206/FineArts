@@ -17,19 +17,20 @@
         <div class="main">
             {% for artist in artists%}
                 {% set index = loop.index %}
-                  <div class="art a{{index}}">
+                <div class="art">
                     <a href="{{artists[artist]["profile_url"]}}" target="__blank"> <img src="{{artists[artist]["profile_url"]}}" alt=""></a>
                     <div class="overlay">
                         <div class="text">
                             <h3 class="name">{{artist}}</h4>
                             <div class="show"> <a href="{{ url_for('display',username=artist)}}">See Collection</a>
-                            </div>style
-
-                        <div class="icons">
-                            <a href="#"> <i class="fab fa-github" aria-hidden="true"></i></a>
-                            <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                            <a href="#"> <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="icons">
+                                <a href="#"> <i class="fab fa-github" aria-hidden="true"></i></a>
+                                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                                <a href="#"> <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                            </div>
                         </div>
+                    </div>
                 </div>
             {% endfor %}
         </div>
