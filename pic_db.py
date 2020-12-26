@@ -1,37 +1,41 @@
 database={
-    "artist_name":{
+    "Apoorv Joshi":{
         "branch":"CSE-18",
         "instagram":"#",
         "facebook":"#",
         "profile_url":"#",
         "images_url":[
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951208/Artwork/20201224_165353_urejwc.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951133/Artwork/WhatsApp_Image_2020-12-26_at_08.17.52_1_pwv1jz.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951132/Artwork/WhatsApp_Image_2020-12-26_at_08.17.53_1_ftqhjz.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951132/Artwork/WhatsApp_Image_2020-12-26_at_08.17.52_zeuw5t.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951132/Artwork/WhatsApp_Image_2020-12-26_at_08.17.53_3_nardfk.jpg",
                 "likes":0,
             },
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951132/Artwork/WhatsApp_Image_2020-12-26_at_08.17.53_2_otmswa.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951132/Artwork/WhatsApp_Image_2020-12-26_at_08.17.53_mykzmn.jpg",
                 "likes":0,
             }
         ]
     },
-    "artist_name_2":{
+    "Anuva Negi":{
         "branch":"ECE-18",
         "instagram":"#",
         "facebook":"#",
@@ -59,7 +63,7 @@ database={
             }
         ]
     },
-    "artist_name_3":{
+    "Tanmaya Singh":{
         "branch":"ECE-18",
         "instagram":"#",
         "facebook":"#",

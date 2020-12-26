@@ -10,10 +10,13 @@
         </div>
         {% block content %}
         <div class="main">
-                {% for artist in artists%}
-                    <img src="{{artists[artist]["profile_url"]}}" />
+            {% for artist in artists%}
+                {% set index = loop.index %}
+                <div class="art a{{index}}">
+                    <a href="{{ url_for('display', username=artist)}}"><img src="{{artists[artist]["profile_url"]}}" />
                     <p>{{artist}} {{artists[artist]["branch"]}}</p>
-                {% endfor %}
+                </div>
+            {% endfor %}
         </div>
         <footer>
             <h1>foot</h1>
