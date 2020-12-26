@@ -191,7 +191,7 @@ body{
   text-align: center;
   opacity: 0;
   transition: 0.5s all ease;
-  color: crimson;
+  color:white;
   font-weight: bold;
 }
 .main_container .hexagon:hover .shape .content {
