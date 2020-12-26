@@ -36,7 +36,7 @@ database={
         ]
     },
     "Anuva Negi":{
-        "branch":"ECE-18",
+        "branch":"CSE-18",
         "instagram":"#",
         "facebook":"#",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963764/Profile/IMG-20201226-WA0033_gzxcmw.jpg",
