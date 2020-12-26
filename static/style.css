@@ -37,7 +37,7 @@ body{
 .splash::before {
   content: "";
   position: absolute;
-  background: url("./static/splash.png");
+  background: url("https://res.cloudinary.com/humbleartist/image/upload/v1608997667/Profile/WhatsApp_Image_2020-12-26_at_21.16.45_usz3x6.jpg");
   height: 100%;
   width: 90%;
   background-size: cover;
