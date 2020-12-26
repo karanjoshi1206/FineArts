@@ -3,7 +3,7 @@ database={
         "branch":"CSE-18",
         "instagram":"#",
         "facebook":"#",
-        "profile_url":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951625/Profile/WhatsApp_Image_2020-12-26_at_08.29.45_ldjpmm.jpg",
         "images_url":[
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951208/Artwork/20201224_165353_urejwc.jpg",

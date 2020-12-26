@@ -13,7 +13,7 @@
             {% for artist in artists%}
                 {% set index = loop.index %}
                 <div class="art a{{index}}">
-                    <a href="{{ url_for('display', username=artist)}}"><img src="{{artists[artist]["profile_url"]}}" />
+                    <a href="{{ url_for('display', username=artist)}}"><img src="{{artists[artist]["profile_url"]}}" /></a>
                     <p>{{artist}} {{artists[artist]["branch"]}}</p>
                 </div>
             {% endfor %}
