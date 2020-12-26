@@ -14,10 +14,24 @@
         <div class="main">
             {% for artist in artists%}
                 {% set index = loop.index %}
-                <div class="art a{{index}}">
-                    <a href="{{ url_for('display', username=artist)}}"><img src="{{artists[artist]["profile_url"]}}" /></a>
-                    <p>{{artist}} {{artists[artist]["branch"]}}</p>
+                 <div class="art a{{index}}">
+                    <a href="{{artist["profile_url"]}}" target="__blank"> <img src="{{artist["profile_url"]}}" alt=""></a>
+                     <div class="overlay">
+                         <div class="text">
+                              <h3 class="name">{{artist}}</h4>
+                        <div class="show"> <a href="#">See Collection</a>
+                        </div>
+                        <div class="icons">
+                            <a href="#"> <i class="fab fa-github" aria-hidden="true"></i></a>
+                            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                            <a href="#"> <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
                 </div>
+                     </div>
+            </div>
+
+        </div>
+            </div>
             {% endfor %}
         </div>
         <footer>
