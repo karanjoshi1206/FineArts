@@ -83,7 +83,7 @@ body{
   position: relative;
 }
 
-.art img {
+.art a img {
   height: 100%;
   width: 100%;
   position: absolute;

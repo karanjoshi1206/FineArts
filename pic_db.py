@@ -88,13 +88,13 @@ database={
         ]
     },
     "Tanmaya Singh":{
-        "branch":"ECE-18",
+        "branch":"ECE-19",
         "instagram":"#",
         "facebook":"#",
         "profile_url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
         "images_url":[
             {
-                "url":"https://res.cloudinary.com/dwdpobo0h/image/upload/v1607710395/sample.jpg",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966914/Artwork/Tanmaya%20Singh/LRM_EXPORT_1071606811454442_20191107_144506745_amu64o.jpg",
                 "likes":0,
             }
         ]
