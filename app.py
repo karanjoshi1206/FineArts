@@ -13,6 +13,10 @@ def home():
 def team():
     return render_template("team.html")
 
+@app.route("/artsteam/")
+def artsteam():
+    return render_template("artsteam.html")
+
 @app.route("/<username>")
 def display(username):
     return render_template("display.html", user=Database[username], username=username)

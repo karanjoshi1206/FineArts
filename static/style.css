@@ -91,10 +91,12 @@ body{
 .art {
   position: relative;
 }
-
+/* img{
+  border-radius: 20px;
+} */
 .art a img {
   height: 100%;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -102,13 +104,14 @@ body{
   /*object-fit: cover;*/
 }
 .overlay {
+  border-radius: 20px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 80%;
   opacity: 0;
   transition: 0.5s ease;
   background-color: #0000009d;
