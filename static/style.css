@@ -204,7 +204,6 @@ footer a {
   text-decoration: none;
 }
 .goback a {
-  position: absolute;
   text-decoration: none;
   background-color: black;
   color: white;
@@ -315,9 +314,7 @@ footer a {
 .art {
   position: relative;
 }
-/* img{
-  border-radius: 20px;
-} */
+
 .art a img {
   height: 100%;
   width: 80%;
@@ -325,7 +322,6 @@ footer a {
   top: 0;
   bottom: 0;
   fill: none;
-  /*object-fit: cover;*/
 }
 .overlay {
   border-radius: 20px;
