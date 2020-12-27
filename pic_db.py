@@ -3,7 +3,7 @@ database={
         "branch":"CSE-18",
         "instagram":"#",
         "facebook":"#",
-        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951625/Profile/WhatsApp_Image_2020-12-26_at_08.29.45_ldjpmm.jpg",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609085932/Profile/WhatsApp_Image_2020-12-26_at_08.29.45_mr62ig_ikx00r.jpg",
         "images_url":[
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608951208/Artwork/20201224_165353_urejwc.jpg",
@@ -39,7 +39,7 @@ database={
         "branch":"CSE-18",
         "instagram":"https://instagram.com/anuvaahh517?igshid=1cc7es4aw6khg",
         "facebook":"#",
-        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963764/Profile/IMG-20201226-WA0033_gzxcmw.jpg",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086782/Profile/WhatsApp_Image_2020-12-27_at_22.00.38_smuryj.jpg",
         "images_url":[
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608963691/Anuva/IMG-20201226-WA0025_aqvsrx.jpg",
@@ -88,15 +88,80 @@ database={
         ]
     },
     "Tanmaya Singh":{
-        "branch":"ECE-19",
+        "branch":"CSE-19",
         "instagram":"#",
         "facebook":"#",
-        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1608975944/Profile/PicsArt_01-12-05.38.15_rfb9ro.jpg",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086809/Profile/IMG_20201227_220308_do93kx.jpg",
         "images_url":[
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966942/Artwork/Tanmaya%20Singh/IMG_20191122_220055_ep2x8e.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966927/Artwork/Tanmaya%20Singh/IMG_20200522_115144_xsh1ir.jpg",
+                "likes":0,
+            },
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966914/Artwork/Tanmaya%20Singh/LRM_EXPORT_1071606811454442_20191107_144506745_amu64o.jpg",
                 "likes":0,
             },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966912/Artwork/Tanmaya%20Singh/IMG_20191116_222630_anb1ud.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1608966905/Artwork/Tanmaya%20Singh/IMG20200412152419_ewgn8i.jpg",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+            {
+                "url":"",
+                "likes":0,
+            },
+
         ]
     },
     "Harshit Pathak":{
