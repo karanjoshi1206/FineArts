@@ -481,7 +481,8 @@ footer a {
       "a5 a4 a6"
       "a5 a7 a6"
       "a8 a9 a10"
-      "a11 a9  a12";
+      "a11 a9  a12"
+      "a13 a14 a15";
   }
 }
 @media (max-width: 550px) {
@@ -513,7 +514,7 @@ footer a {
   }
   .main {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
     margin: 40px 20px;
     height: 100%;
     grid-template-areas:
@@ -525,7 +526,8 @@ footer a {
       "a7 a8"
       "a9 a10"
       "a11 a10"
-      "a12 ..";
+      "a12 a13"
+      "a14 a15";
   }
   .art {
     min-height: 200px;
