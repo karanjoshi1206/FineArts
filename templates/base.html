@@ -16,8 +16,24 @@
             <p>B.I.A.S</p>
         </div>
         {% block content %}
-        <h1 class="heading">Art Gallery 2020</h1>
-        <div class="main splash">
+        <div class="about_content">
+        <h1>Welcome to the <br> <span>Fine Arts</span> society BIAS</h1>
+        <p class="anim">Showcase your art with us as we flip through the pages of our sketch books...</p>
+
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nemo in dolor! Tempore reprehenderit
+            eius
+            cum, excepturi aliquid quidem, atque sed ea dolorem et corrupti similique praesentium, incidunt magni
+            perferendis veritatis. Aspernatur, accusamus eveniet. Nesciunt aut sunt obcaecati dolorum corrupti.</p>
+
+        <a href="#head">Explore More</a>
+        <div class="circle">
+
+        </div>
+    </div>
+            <h1 id="head" class="teamheading">The Artists</h1>
+
+<!--         <div class="main splash">
             {% for artist in artists%}
                 {% set index = loop.index %}
                 <div class="art">
@@ -34,14 +50,55 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+        
+            <div class="teamcontainer">
+                  {% for artist in artists%}
+                {% set index = loop.index %}
+                 <div class="team">
+            <div class="membphoto memb1">
+                <img src="{{artists[artist]["profile_url"]}}" alt="loading">
+            </div>
+            <div class="membinfo">
+                <br><br>
+                <h1>{{artist}}</h1> <br><br>
+                <a href="{{ url_for('display',username=artist)}}">Show collection</a>
+            </div>
+            <div class="membicons">
+                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                <a href=""> <i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""> <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        </div>
             {% endfor %}
         </div>
         {% endblock %}
-        <footer>
-            <a href="{{url_for('team')}}"><h3>Web Development Team</h3></a>
+        <footer class="container py-5">
+<!--             <a href="{{url_for('team')}}"><h3>Web Development Team</h3></a>
             <a href="{{url_for('team')}}"><h3>About</h3></a>
-            <a href="{{url_for('artsteam')}}"><h3>Fine-arts Team</h3></a>
+            <a href="{{url_for('artsteam')}}"><h3>Fine-arts Team</h3></a> -->
+             <div class="row">
+            <div class="col-12 col-md">
+
+
+                <small class="d-block mb-3 text-muted">© FINE ARTS BIAS</small>
+            </div>
+            <div class="col-6 col-md">
+                <a href="{{url_for('artsteam')}}">
+                    <h5>TEAM</h5>
+                </a>
+
+            </div>
+            <div class="col-6 col-md">
+                <a href="{{url_for('team')}}"">
+                    <h5>DEVELOPERS</h5>
+                </a>
+
+            </div>
+
+        </div>
         </footer>
     </body>
 </Html>
