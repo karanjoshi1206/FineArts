@@ -193,6 +193,8 @@ html {
   color: crimson;
 }
 footer {
+  position: relative;
+  bottom: -100px;
   width: 100%;
   background-color: black;
   color: white;
