@@ -556,7 +556,8 @@ footer a {
     transition: 0.5s all ease;
   }
   footer {
-    margin-top:40px;
+  position: relative;
+  bottom: -100px;
   width: 100%;
   background-color: black;
   color: white;
