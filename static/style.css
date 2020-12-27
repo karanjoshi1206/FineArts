@@ -9,9 +9,9 @@
   text-decoration: none;
 }
 body {
-  background-color: #f8f1f1;
-
-  position: relative;
+ height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 html {
   scroll-behavior: smooth;
@@ -193,25 +193,29 @@ html {
   color: crimson;
 }
 footer {
-  position: relative;
-  bottom: -100px;
+  width: 100%;
   background-color: black;
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  padding-top: 10px;
 }
 .copy {
   font-size: 25px;
 }
 footer a {
   text-decoration: none;
+  color: #fff;
+}
+.goback {
+  margin-bottom: 20px;
 }
 .goback a {
   text-decoration: none;
   background-color: black;
   color: white;
   padding: 5px;
-  display: inline-block;
   border-radius: 10px;
-  bottom: 100px;
-  left: 30px;
   transition: 0.5s;
   font-weight: bold;
   border: 2px solid black;
@@ -220,7 +224,6 @@ footer a {
   color: black;
   background-color: white;
 }
-
 /* home page styling end */
 .nav_bar {
   background-color: #fcf8e8;
