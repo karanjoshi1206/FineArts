@@ -12,6 +12,9 @@ body{
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
+body {
+  position: relative;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -194,19 +197,23 @@ html {
 footer {
   position: relative;
   bottom: -100px;
+  background-color: black;
 }
 .copy {
   font-size: 25px;
 }
+footer a {
+  text-decoration: none;
+}
 .goback a {
-  position: relative;
+  position: absolute;
   text-decoration: none;
   background-color: black;
   color: white;
   padding: 5px;
   display: inline-block;
   border-radius: 10px;
-  top: 50px;
+  bottom: 100px;
   left: 30px;
   transition: 0.5s;
   font-weight: bold;
@@ -216,15 +223,14 @@ footer {
   color: black;
   background-color: white;
 }
-footer a {
-  text-decoration: none;
-}
 @media (max-width: 550px) {
   .about_content a {
     padding: 5px;
   }
+
   .about_content {
     padding: 30px;
+    height: 100%;
   }
   .about_content h1 {
     font-size: 30px;
@@ -245,6 +251,7 @@ footer a {
     font-size: 16px;
   }
 }
+
 /* home page styling end */
 .nav_bar {
   background-color: #fcf8e8;
@@ -270,7 +277,8 @@ footer a {
     "a5 a4 a6"
     "a5 a7 a6"
     "a8 a9 a10"
-    "a11 a9  a12";
+    "a11 a9  a12"
+    "a13 a14 a15";
 }
 .splash::before {
   content: "";
@@ -325,7 +333,15 @@ footer a {
 .a12 {
   grid-area: a12;
 }
-
+.a13{
+  grid-area:a13;
+}
+.a14{
+  grid-area:a14;
+}
+.a15{
+  grid-area:a15;
+}
 .art {
   position: relative;
 }
