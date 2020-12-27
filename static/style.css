@@ -240,7 +240,7 @@ footer a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   margin: 40px 70px;
-  height: 900px;
+  /*height: 900px;*/
   grid-template-areas:
     "a1 a2 a3"
     "a1 a4 a3"
