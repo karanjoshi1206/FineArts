@@ -479,6 +479,12 @@ footer a {
   }
 }
 @media (max-width: 550px) {
+  .circle {
+  height: 300px;
+  width: 350px;
+  top: 20%;
+
+}
   .about_content a {
     padding: 5px;
   }
@@ -504,9 +510,13 @@ footer a {
  .main {
     display: flex;
     flex-direction: column;
+   
+
   }
   .art {
     min-height: 400px;
+    width: 400px;
+
   }
   .heading {
     text-align: center;
