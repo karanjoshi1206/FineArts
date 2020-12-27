@@ -195,6 +195,27 @@ footer {
   position: relative;
   bottom: -100px;
 }
+.copy {
+  font-size: 25px;
+}
+.goback a {
+  position: relative;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  top: 50px;
+  left: 30px;
+  transition: 0.5s;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.goback a:hover {
+  color: black;
+  background-color: white;
+}
 footer a {
   text-decoration: none;
 }
