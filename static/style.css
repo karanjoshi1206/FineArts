@@ -552,4 +552,13 @@ footer a {
     margin: 0 10px;
     transition: 0.5s all ease;
   }
+  footer {
+    margin-top:40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  padding-top: 10px;
+}
 }
