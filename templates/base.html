@@ -50,7 +50,7 @@
              {% for artist in artists%}
                 {% set index = loop.index %}
             <div class="artistbx">
-                <img src=""{{artists[artist]["profile_url"]}}"" alt="">
+                <img src="{{artists[artist]["profile_url"]}}" alt="">
                 <div class="text">
                     <h2>{{artist}}</h2>
                     <a href="{{ url_for('display',username=artist)}}">See collection</a>
@@ -59,19 +59,14 @@
                         <a href="#"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
-
-            </div>           
+            </div> 
+            {% endfor %}          
         </div>
     </section>
-            {% endfor %}
-        </div>
     <section id="contact" class="contact">
         <div class="heading ">
             <h2>Contact Us</h2>
             <p>Get In touch with us to feature your art in the website</p>
-        </div>
-        <div class="content">
-            <a href="#">Share your ART</a>
         </div>
     </section>
         {% endblock %}

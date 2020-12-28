@@ -24,7 +24,7 @@ section {
 .banner {
   position: relative;
   height: 100vh;
-  background: url("/bg.jpeg");
+  background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157407/Profile/bg_fvjksi.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -698,7 +698,7 @@ footer a {
     margin: 20px 0;
   }
   .toggle {
-    background: url("/bars.png");
+    background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157406/Profile/bars_gluypf.png");
     background-position: center;
     background-size: cover;
     height: 35px;
@@ -707,7 +707,7 @@ footer a {
     cursor: pointer;
   }
   .toggle.active {
-    background: url("/cross.png");
+    background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157406/Profile/cross_c01xwo.png");
     background-position: center;
     background-size: cover;
     height: 35px;
