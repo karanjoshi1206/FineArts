@@ -14,7 +14,17 @@
 
     <body>
     
-    
+      <header>
+        <a href="#" class="logo">Fine Arts</a>
+        <div onclick="togglemenu()" class="toggle">
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </header>
         {% block content %}
     
     <section class="banner">
@@ -73,23 +83,7 @@
         
 
             {% block foot %}{% endblock %}
-            <footer class="container-fluid ">
-                <div class="row">
-                    <div class="col-12 col-md">
-                        <small class="d-block mb-3 text-muted">© FINE ARTS BIAS</small>
-                    </div>
-                    <div class="col-6 col-md">
-                        <a href="{{url_for('artsteam')}}">
-                            <h5>TEAM</h5>
-                        </a>
-                    </div>
-                    <div class="col-6 col-md">
-                        <a href="{{url_for('team')}}">
-                            <h5>DEVELOPERS</h5>
-                        </a>
-                    </div>
-                </div>
-            </footer>
+          
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
