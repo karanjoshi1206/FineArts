@@ -18,11 +18,8 @@
     </div>
 </div>
 {% endblock %}
-{% block foot %}
-<div class="goback">
-    <center><a href="{{url_for('home')}}">Home</a></center>
-</div>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -35,4 +32,19 @@
             });
         });
     </script>
-{% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous">
+    </script>
+    <script>
+        window.addEventListener("scroll", () => {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+        function togglemenu() {
+            var menutoggle = document.querySelector(".toggle");
+            var menu = document.querySelector(".menu");
+            menutoggle.classList.toggle("active")
+            menu.classList.toggle("active")
+        }
+    </script>

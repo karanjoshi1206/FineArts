@@ -14,17 +14,17 @@
 
     <body>
     
-      <header>
-        <a href="#" class="logo">Fine Arts</a>
-        <div onclick="togglemenu()" class="toggle">
-        </div>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#artists">Artists</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </header>
+        <header>
+            <div class="logo">Fine Arts</div>
+            <div onclick="togglemenu()" class="toggle">
+            </div>
+            <ul class="menu">
+                <li><a href="{{url_for('home')}}#">Home</a></li>
+                <li><a href="{{url_for('home')}}#about">About</a></li>
+                <li><a href="{{url_for('home')}}#artists">Artists</a></li>
+                <li><a href="{{url_for('artsteam')}}">Meet the Team</a></li>
+            </ul>
+        </header>
         {% block content %}
     
     <section class="banner">
@@ -74,22 +74,23 @@
         </div>
     </section>
     <section id="contact" class="contact">
-        <div class="heading ">
-            <h2>Contact Us</h2>
+        <div class="heading">
+            <a href="{{url_for('artsteam')}}"><h2>Meet the Team</h2></a>
             <p>Get In touch with us to feature your art in the website</p>
         </div>
+        <div class="heading">
+            <a href="{{url_for('team')}}"><h2>Meet the Developers</h2></a>
+        </div>
     </section>
-        {% endblock %}
-        
-
-            {% block foot %}{% endblock %}
+    {% endblock %}
           
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
- <script>
+        crossorigin="anonymous">
+    </script>
+    <script>
         window.addEventListener("scroll", () => {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0)
