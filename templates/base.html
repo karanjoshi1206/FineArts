@@ -17,39 +17,63 @@
     
         {% block content %}
     
-        <div class="about_content">
-            <h1>Welcome to <br> <span>Fine Arts</span> society BIAS</h1>
-            <p class="anim">Draw what you imagine.....</p>
-
+    <section class="banner">
+        <div class="textbx">
+            <h2>Welcome to <br> <span>Fine Arts Society</span> </h2>
+            <h3 class="anim">Draw what you imagine.....</h3>
+            <a class="about_btn" href="#about">About us</a>
+        </div>
+    </section>
+     <section id="about" class="about">
+        <div class="heading">
             <h2>About Us</h2>
-            <p>Bringing colour to the institution,we here at Fine Arts Society vividly promote creativity among the BIAS students. Connect with us if art brings joy to your life.</p>
-
-            <a href="#head">Explore More</a>
-            <div class="circle">
+        </div>
+        <div class="content">
+            <div class="contentbx w50">
+                <h1>Fine Arts Society, BIAS</h1>
+                <p>Bringing colour to the institution,we here at Fine Arts Society vividly promote creativity among the
+                    BIAS students. Connect with us if art brings joy to your life.</p>
+            </div>
+            <div class="w50">
+                <img src="/aboutimg.jpg" class="img" alt="">
             </div>
         </div>
+    </section>
     
-        <h1 id="head" class="teamheading">The Artists</h1>
-        
-        <div class="teamcontainer">
-            {% for artist in artists%}
+           
+               
+   <section id="artists" class="team">
+        <div class="heading white">
+            <h2>Our Artists</h2>
+        </div>
+        <div class="content">
+             {% for artist in artists%}
                 {% set index = loop.index %}
-                <div class="team">
-                    <div class="membphoto memb1">
-                        <img src="{{artists[artist]["profile_url"]}}" alt="loading">
-                    </div>
-                    <div class="membinfo">
-                        <br><br>
-                        <h1>{{artist}}</h1> <br><br>
-                        <a href="{{ url_for('display',username=artist)}}">Show collection</a>
-                    </div>
-                    <div class="membicons">
-                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="{{artists[artist]["instagram"]}}"> <i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <div class="artistbx">
+                <img src=""{{artists[artist]["profile_url"]}}"" alt="">
+                <div class="text">
+                    <h2>{{artist}}</h2>
+                    <a href="{{ url_for('display',username=artist)}}">See collection</a>
+                    <div class="icons">
+                        <a href="{{artists[artist]["instagram"]}}"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
+
+            </div>           
+        </div>
+    </section>
             {% endfor %}
         </div>
+    <section id="contact" class="contact">
+        <div class="heading ">
+            <h2>Contact Us</h2>
+            <p>Get In touch with us to feature your art in the website</p>
+        </div>
+        <div class="content">
+            <a href="#">Share your ART</a>
+        </div>
+    </section>
         {% endblock %}
         
 
@@ -76,5 +100,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+ <script>
+        window.addEventListener("scroll", () => {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+        function togglemenu() {
+            var menutoggle = document.querySelector(".toggle");
+            var menu = document.querySelector(".menu");
+            menutoggle.classList.toggle("active")
+            menu.classList.toggle("active")
+        }
+    </script>
     </body>
 </Html>
