@@ -191,7 +191,15 @@ database={
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609164182/Profile/IMG_20201228_013506_-_Anurag_Pant_sbzyoh.jpg",
         "images_url":[
             {
-                "url":"",
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609165509/Artwork/Anurag/IMG-20201228-WA0009_akf6qh.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609165470/Artwork/Anurag/IMG-20201228-WA0010_xdnke5.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609165421/Artwork/Anurag/IMG-20201228-WA0011_y8kt3z.jpg",
                 "likes":0,
             },
         ]

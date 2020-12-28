@@ -24,7 +24,7 @@ section {
 .image {
   background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157407/Profile/bg_fvjksi.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .banner {
   position: relative;
