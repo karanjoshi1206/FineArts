@@ -23,6 +23,8 @@ section {
 }
 .image {
   background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157407/Profile/bg_fvjksi.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .banner {
   position: relative;
@@ -115,7 +117,7 @@ header li a {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  color: whitesmoke;
+  color:#111;
 }
 .heading h2 {
   font-weight: 600;

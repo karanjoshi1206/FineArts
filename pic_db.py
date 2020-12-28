@@ -1,4 +1,24 @@
 database={
+    "Rakshit Joshi":{
+        "branch":"ECE-18",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086618/Profile/rakshit_c2v6mt.png",
+        "images_url":[
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609087541/Artwork/Rakshit%20Joshi/WhatsApp_Image_2020-12-27_at_16.14.16_eg1w8p.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609087541/Artwork/Rakshit%20Joshi/WhatsApp_Image_2020-12-27_at_16.14.20_z3df2y.jpg",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609087541/Artwork/Rakshit%20Joshi/WhatsApp_Image_2020-12-27_at_16.14.18_omlvcs.jpg",
+                "likes":0,
+            },
+        ]
+    },
     "Apoorv Joshi":{
         "branch":"CSE-18",
         "instagram":"#",
