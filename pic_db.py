@@ -164,4 +164,28 @@ database={
 
         ]
     },
+    "Anuragh Pant":{
+        "branch":"ECE-18",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609164182/Profile/IMG_20201228_013506_-_Anurag_Pant_sbzyoh.jpg",
+        "images_url":[
+            {
+                "url":"",
+                "likes":0,
+            },
+        ]
+    },
+    "Vidhushi Agarwal":{
+        "branch":"CSE-18",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609164246/Profile/IMG-20201220-WA0244_-_Vidushi_Agarwal_mwjlev.jpg",
+        "images_url":[
+            {
+                "url":"",
+                "likes":0,
+            },
+        ]
+    }
 }
