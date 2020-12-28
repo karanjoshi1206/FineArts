@@ -510,13 +510,13 @@ footer a {
  .main {
     display: flex;
     flex-direction: column;
-   margin:20px auto;
+   
 
   }
   .art {
     min-height: 400px;
     width: 350px;
-
+margin:20px auto;
   }
   .heading {
     text-align: center;
