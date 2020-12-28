@@ -1,6 +1,6 @@
 database={
     "Rakshit Joshi":{
-        "branch":"ECE-18",
+        "branch":"ECE-17",
         "instagram":"#",
         "facebook":"#",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086618/Profile/rakshit_c2v6mt.png",
@@ -15,6 +15,50 @@ database={
             },
             {
                 "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609087541/Artwork/Rakshit%20Joshi/WhatsApp_Image_2020-12-27_at_16.14.18_omlvcs.jpg",
+                "likes":0,
+            },
+        ]
+    },
+    "Prafull Dubey":{
+        "branch":"ECE-17",
+        "instagram":"#",
+        "facebook":"#",
+        "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086668/Profile/prafulsir_nwktkh.png",
+        "images_url":[
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176456/Artwork/Praful%20Dubey/3_duhjkc.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176456/Artwork/Praful%20Dubey/10_c4o8ia.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176456/Artwork/Praful%20Dubey/9_nvfafq.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176456/Artwork/Praful%20Dubey/11_bzycmk.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176456/Artwork/Praful%20Dubey/5_pk1ghl.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176455/Artwork/Praful%20Dubey/1_oujh7a.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176455/Artwork/Praful%20Dubey/8_baszmg.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176455/Artwork/Praful%20Dubey/4_grfwlu.png",
+                "likes":0,
+            },
+            {
+                "url":"https://res.cloudinary.com/humbleartist/image/upload/v1609176454/Artwork/Praful%20Dubey/2_gcoooh.png",
                 "likes":0,
             },
         ]
