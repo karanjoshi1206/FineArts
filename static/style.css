@@ -428,7 +428,7 @@ footer a {
   flex-wrap: wrap;
 }
 .main_container .hexagon {
-  margin: 50px 20px 70px;
+  margin: 0px 20px 50px 5px;
   position: relative;
   width: 350px;
   height: 400px;
