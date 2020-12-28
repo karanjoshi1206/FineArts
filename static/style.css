@@ -21,6 +21,9 @@ body {
 section {
   padding: 100px;
 }
+.image {
+  background: url("https://res.cloudinary.com/humbleartist/image/upload/v1609157407/Profile/bg_fvjksi.jpg");
+}
 .banner {
   position: relative;
   height: 100vh;
@@ -112,7 +115,7 @@ header li a {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
-  color: #111;
+  color: whitesmoke;
 }
 .heading h2 {
   font-weight: 600;
