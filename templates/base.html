@@ -60,12 +60,12 @@
              {% for artist in artists%}
                 {% set index = loop.index %}
             <div class="artistbx">
-                <img src="{{artists[artist]["profile_url"]}}" alt="">
+                <img src="{{artist.image}}" alt="">
                 <div class="text">
-                    <h2>{{artist}}</h2>
+                    <h2>{{artist.artist_name}}</h2>
                     <a href="{{ url_for('display',username=artist)}}">See collection</a>
                     <div class="icons">
-                        <a href="{{artists[artist]["instagram"]}}"><i class="fab fa-instagram"></i></a>
+                        <a href="{{artist.instagram}}"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div> 
