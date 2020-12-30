@@ -12,7 +12,7 @@
     {% for images in work %}
     {% set index = loop.index %}
         <div class="art a{{index}}">
-            <a href="images.art" target="__blank"> <img src="{{images.art}}" alt="loading" />
+            <a href="{{images.art}}" target="__blank"> <img src="{{images.art}}" alt="loading" />
             </a>
         </div>
     {% endfor %}
