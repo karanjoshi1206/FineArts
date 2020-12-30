@@ -5,14 +5,14 @@
 <div>
 
     <div class="title" style="margin: 150px 0 0 0;">
-        <h1 class="heading">{{username}}</h1>
-        <p align="center">{{user["branch"]}}</p>
+        <h1 class="heading">{{user.artis_name}}</h1>
+        <p align="center">{{user.branch}}</p>
     </div>
     <div class="main">
-    {% for images in user["images_url"] %}
+    {% for images in work %}
     {% set index = loop.index %}
         <div class="art a{{index}}">
-            <a href="{{images["url"]}}" target="__blank"> <img src="{{images["url"]}}" alt="loading" />
+            <a href="images.art" target="__blank"> <img src="{{images.art}}" alt="loading" />
             </a>
         </div>
     {% endfor %}

@@ -46,7 +46,10 @@ def artsteam():
 
 @app.route("/<username>")
 def display(username):
-    return render_template("display.html") #, user=Database[username], username=username)
+    user=User.query.filter_by(artist_name=username).first()
+    print(user)
+    work = user.post
+    return render_template("display.html",user=user, work=work) #, user=Database[username], username=username)
 
 
 
