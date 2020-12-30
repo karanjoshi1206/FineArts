@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-#from pic_db import database as Database
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db' 
@@ -30,7 +29,7 @@ class Post(db.Model):
 
 @app.route("/")
 def home():
-    return render_template("base.html", artists=User.query.all()) #,artists=Database)
+    return render_template("base.html", artists=User.query.all())
 
 @app.route("/team/")
 def team():
@@ -49,7 +48,7 @@ def display(username):
     user=User.query.filter_by(artist_name=username).first()
     print(user)
     work = user.post
-    return render_template("display.html",user=user, work=work) #, user=Database[username], username=username)
+    return render_template("display.html",user=user, work=work)
 
 
 
