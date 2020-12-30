@@ -1,4 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Here comes admin</h1>
+    <div style="margin: 150px 0 0 0;">
+        <table>
+        <theader>
+            <tr>
+                <td>Artist Name</td>
+                <td>Votes</td>
+            </tr>
+        </theader>
+        <tbody>
+            {% for artist in user%}
+                <tr>
+                    <td>{{artist.artist_name}}</td>
+                    <td>{{artist.votes}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </div>
 {% endblock %}

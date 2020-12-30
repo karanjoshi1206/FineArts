@@ -37,7 +37,8 @@ def team():
 
 @app.route("/nicetrybutIdontkeeptheadminurlasadminurlcauseIain'tStupid/")
 def admin():
-    return render_template("admin.html")
+    user = User.query.all()
+    return render_template("admin.html",user=user)
 
 @app.route("/artsteam/")
 def artsteam():
