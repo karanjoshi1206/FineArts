@@ -14,9 +14,29 @@
         <div class="art a{{index}}">
             <a href="{{images.art}}" target="__blank"> <img src="{{images.art}}" alt="loading" />
             </a>
+           <div id="like" class="like">
+                <i class="fas fa-heart"></i>
+                <div id="likecount" class="likecount">10</div>
+            </div>
         </div>
     {% endfor %}
     </div>
 </div>
 {% endblock %}
     
+  <script>
+        $(document).ready(function () {
+            $('.main').magnificPopup({
+                type: 'image',
+                delegate: 'a',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+
+        var like = document.getElementById("like")
+        like.addEventListener("click", () => {
+            like.classList.toggle("likecolor")
+        })
+    </script>
