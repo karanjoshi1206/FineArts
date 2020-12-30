@@ -1,7 +1,7 @@
 database={
     "Rakshit Joshi":{
         "branch":"ECE-17",
-        "instagram":"#",
+        "instagram":"https://instagram.com/___rakshit_j_?igshid=1ntk6cuwrdlsn",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086618/Profile/rakshit_c2v6mt.png",
         "images_url":[
             {
@@ -59,7 +59,7 @@ database={
     },
     "Prafull Dubey":{
         "branch":"ECE-17",
-        "instagram":"#",
+        "instagram":"https://instagram.com/praful98fs?igshid=1gk2vmssit0q3",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086668/Profile/prafulsir_nwktkh.png",
         "images_url":[
             {
@@ -102,7 +102,7 @@ database={
     },
     "Apoorv Joshi":{
         "branch":"CSE-18",
-        "instagram":"#",
+        "instagram":"https://instagram.com/apoorvjoshi3108?igshid=1rldwgvp9i41k",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609085932/Profile/WhatsApp_Image_2020-12-26_at_08.29.45_mr62ig_ikx00r.jpg",
         "images_url":[
             {
@@ -212,7 +212,7 @@ database={
     },
     "Tanmaya Singh":{
         "branch":"CSE-19",
-        "instagram":"#",
+        "instagram":"https://www.instagram.com/tanmay0607/",
         "profile_url":"https://res.cloudinary.com/humbleartist/image/upload/v1609086809/Profile/IMG_20201227_220308_do93kx.jpg",
         "images_url":[
             {

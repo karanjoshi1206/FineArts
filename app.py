@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     artist_name = db.Column(db.String(50), nullable=False)
-    instagram = db.Column(db.String(120), nullable=False, unique=True)
+    instagram = db.Column(db.String(120), nullable=False)
     branch = db.Column(db.String(6), nullable=False)
     image = db.Column(db.String(400), nullable=False, default='https://res.cloudinary.com/humbleartist/image/upload/v1609164246/Profile/IMG-20201220-WA0244_-_Vidushi_Agarwal_mwjlev.jpg')
     votes = db.Column(db.Integer, nullable=False, default=0)
